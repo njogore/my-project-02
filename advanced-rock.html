@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kamago rock-paper-Scissors</title>
+    <link rel="stylesheet" href="advanced-rock.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Rock.Paper.Scissors</h1>
+    </div>
+    
+   <button onclick="
+   playGame('Rock');
+  "><img class="images" src="rock-emoji.png" alt="rock-emoji"></img></button>
+
+   <button onclick="
+     playGame('Paper');
+   ">
+      <img class="images" src="paper-emoji.png" alt="paper-emoji">
+   </button>
+
+   <button onclick="
+   playGame('Scissors') ;
+   ">
+      <img class="images" src="scissors-emoji.png" alt="paper-emoji">
+   </button>
+
+   <p class="js-result"></p>
+   <p class="js-moves">
+   
+   </p>
+
+
+   <p class="js-score"></p>
+
+   <button class="reset-btn" onclick="
+   score.wins = 0;
+   score.losses = 0;
+   score.wins = 0;
+   score.ties = 0;
+   localStorage.removeItem(`score`);
+   updateScoreElement()
+   ">Reset Score</button>
+   
+   <script src="advanced-rock.js">
+   </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+.images{ 
+    width: 50px;
+    font-size: 18px;
+    
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: 
+    center;margin-bottom: 10px;
+}
+button{
+    background-color: rgb(238, 227, 227);
+    margin-left: 5px;
+   
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+   
+    padding:15px 15px;
+    margin-left: 5px;
+    
+    box-shadow: 5px 5px 5px purple;
+    border-radius: 50%;
+}
+button:hover{
+    cursor: pointer;
+    transition: 0.25s;
+    background-color: rgb(248, 244, 244);
+}
+
+
+h1{
+    color: rgb(182, 120, 156);
+    text-shadow: 2px 0px 10px rgb(94, 12, 226);
+    font-weight: bold;
+}
+body{
+    background-color: rgb(25, 25, 25);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 18px;
+
+}
+img{
+    width: 48px;
+    
+}
+.reset-btn{
+background-color: rgb(180, 148, 109);
+border-color: rgb(183, 183, 207);
+border-radius: 5px;
+font-weight: 800;
+color: rgb(21, 27, 3);
+font-size: 18px;
+margin-top: 20px;
+box-shadow: 6px 2px 10px rgb(190, 170, 190);
+}
+.js-result{
+font-size: 25px;
+color:  rgba(10, 10, 233, 0.932);
+margin-bottom: 50px;
+}
+.js-moves{
+color: rgb(136, 136, 241);
+font-size: 25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 80px;
+}
+.js-score{
+color: rgb(136, 136, 241);
+font-size: 25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 50px;
+}
